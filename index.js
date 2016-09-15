@@ -1,6 +1,6 @@
 var http = require('http');
 
-http.createServer(onRequest).listen(8080);
+http.createServer(onRequest).listen(Number(process.env.PORT || 80));
 
 function onRequest(client_req, client_res) {
   console.log('serve: ' + client_req.url);
