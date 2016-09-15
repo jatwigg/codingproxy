@@ -1,0 +1,19 @@
+{
+  "name": "codingproxy",
+  "version": "1.0.0",
+  "description": "A proxy for the coding love's cdn.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatwigg/codingproxy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jatwigg/codingproxy/issues"
+  },
+  "homepage": "https://github.com/jatwigg/codingproxy#readme"
+}
