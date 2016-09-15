@@ -1,0 +1,26 @@
+{
+
+  "description": "Replaces the cdn for thecodinglove with a proxy version.",
+  "manifest_version": 2,
+  "name": "Codinglovefix",
+  "version": "1.0",
+  "homepage_url": "https://github.com/jatwigg/codingproxy",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "codinglovefix@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://thecodinglove.com/*"],
+      "js": ["codinglovefix.js"]
+    }
+  ]
+
+}
